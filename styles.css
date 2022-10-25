@@ -124,7 +124,7 @@ body {
 
 .info-item .text {
     color: #646464;
-    
+
 }
 
 /* ----- Information Section End ----- */
@@ -163,7 +163,42 @@ body {
 
 .call-to-action {
     background-color: white;
-    flex-grow: 1;
+    padding: 100px 120px;
+    color: #E5E7EB;
+}
+
+.cta-box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-text p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.cta-button {
+    align-self: center;
+    border: solid #E5E7EB;
+    border-radius: 8px;
+    padding: 5px 35px;
+}
+
+.cta-button button {
+    background: none;
+    border: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 80px;
 }
 
 /* ----- Call To Action Section ----- */
