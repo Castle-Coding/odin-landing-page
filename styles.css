@@ -85,12 +85,15 @@ body {
 }
 
 /* ----- Hero Text Section End ----- */
-
+/* ----- Information Section ----- */
 .information-header-text {
     background-color: white;
     flex-grow: 1;
 
 }
+
+/* ----- Information Section End ----- */
+/* ----- Quote Section ----- */
 
 .quote-section {
     background-color: #E5E7EB;
@@ -98,13 +101,16 @@ body {
 
 }
 
+/* ----- Quote Section End ----- */
+/* ----- Call To Action Section ----- */
+
 .call-to-action {
     background-color: white;
     flex-grow: 1;
 }
 
+/* ----- Call To Action Section ----- */
 /* ----- Site Content Section End ----- */
-
 /* ----- Footer Section ----- */
 
 .footer {
