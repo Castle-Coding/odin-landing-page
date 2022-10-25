@@ -57,7 +57,9 @@ body {
     padding-bottom: 80px;
     gap: 15px;
 }
-
+.hero-main-text-content {
+    flex: 1;
+}
 .information-header-text {
     background-color: white;
     flex-grow: 1;
@@ -75,24 +77,10 @@ body {
     flex-grow: 1;
 }
 
-.hero-main-text-content {
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    width: 612px;
-}
-
-.hero-main-image {
-    background-color: grey;
-    width: 612px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.image-placeholder {
+.image-div {
     background-color: grey;
     color: #E5E7EB;
+    flex: 1;
 }
 
 #hero-text {
@@ -100,24 +88,19 @@ body {
     color: #F9FAF8;
     font-weight: 800;
     margin: 0;
-    width: 400px;
 }
 
 #hero-subtext {
     color: #E5E7EB;
     font-size: 18px;
-    width: 580px;
 }
 
 #hero-button {
-    flex: 0 0 0;
     background-color: #3882F6;
     color: #F9FAF8;
     font-size: 18px;
-    font-weight: 500;
-    width: 150px;
-    padding: 10px;
+    font-weight: 600;
+    padding: 10px 30px;
     border: none;
-    text-decoration: none;
     border-radius: 8px;
 }
