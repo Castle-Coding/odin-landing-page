@@ -48,5 +48,19 @@ body {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: bold;
+    font-weight: 900;
+}
+
+.hero-main-text {
+    
+}
+.information-header-text {
+    background-color: white;
+}
+.quote-section {
+    background-color: #E5E7EB;
+
+}
+.call-to-action {
+    background-color: white;
 }
