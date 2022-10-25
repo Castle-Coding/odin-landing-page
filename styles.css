@@ -31,6 +31,8 @@ body {
 
 .content {
     border:solid green; /* For De-bugging */
+    display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
 }
 
@@ -52,15 +54,23 @@ body {
 }
 
 .hero-main-text {
-    
+    border:solid red; /* For Debugging */
+    flex-grow: 1;
 }
 .information-header-text {
+    border:solid green; /* For Debugging */
     background-color: white;
+    flex-grow: 1;
+
 }
 .quote-section {
+    border:solid blue; /* For Debugging */
     background-color: #E5E7EB;
+    flex-grow: 1;
 
 }
 .call-to-action {
+    border:solid red; /* For Debugging */
     background-color: white;
+    flex-grow: 1;
 }
