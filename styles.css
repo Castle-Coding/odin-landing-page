@@ -133,7 +133,29 @@ body {
 .quote-section {
     background-color: #E5E7EB;
     flex-grow: 1;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
 
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+#quote-text {
+    font-style: italic;
+    font-weight: 100;
+}
+
+#quote-sig {
+    font-weight: bold;
+}
+
+.quote-sig {
+    align-self: flex-end;
 }
 
 /* ----- Quote Section End ----- */
