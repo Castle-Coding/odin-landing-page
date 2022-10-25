@@ -91,7 +91,37 @@ body {
 .information-header-text {
     background-color: white;
     flex-grow: 1;
+    text-align: center;
+    padding: 10px 50px;
+}
 
+.info-title {
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.info-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.info-item {
+    max-width: 150px;
+}
+
+.info-item img{
+    width: 150px;
+    height: 150px;
+}
+
+.info-image-box {
+    border: solid #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
 }
 
 /* ----- Information Section End ----- */
