@@ -51,6 +51,7 @@ body {
 
 .hero-main-text-content {
     flex: 1;
+    padding-right: 20px;
 }
 
 #hero-text {
