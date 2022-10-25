@@ -8,15 +8,12 @@ body {
     font-family: sans-serif;
 }
 
+/* ----- Site Header Section ----- */
+
 .header {
     display: flex;
-    flex-shrink: 0;
     justify-content: space-between;
     align-items: center;
-}
-
-.header .links {
-    display: flex;
 }
 
 #header-links {
@@ -25,24 +22,6 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
-    padding-left: 0;
-    margin-left: 0;
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    flex: 1 0 auto;
-}
-
-.footer {
-    color: #E5E7EB;
-    flex-shrink: 0;
-    height: 70px;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .logo {
@@ -50,6 +29,17 @@ body {
     color: #F9FAF8;
     font-weight: 900;
 }
+
+/* ----- End Site Header Section----- */
+
+/* ----- Site Content Section ----- */
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+/* ----- Hero Text Section ----- */
 
 .hero-main-text {
     display: flex;
@@ -59,31 +49,6 @@ body {
 }
 .hero-main-text-content {
     flex: 1;
-}
-.information-header-text {
-    background-color: white;
-    flex-grow: 1;
-
-}
-
-.quote-section {
-    background-color: #E5E7EB;
-    flex-grow: 1;
-
-}
-
-.call-to-action {
-    background-color: white;
-    flex-grow: 1;
-}
-
-.image-div {
-    background-color: grey;
-    color: #E5E7EB;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #hero-text {
@@ -107,3 +72,47 @@ body {
     border: none;
     border-radius: 8px;
 }
+
+.image-div {
+    background-color: grey;
+    color: #E5E7EB;
+    flex: 1 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----- Hero Text Section End ----- */
+
+.information-header-text {
+    background-color: white;
+    flex-grow: 1;
+
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    flex-grow: 1;
+
+}
+
+.call-to-action {
+    background-color: white;
+    flex-grow: 1;
+}
+
+/* ----- Site Content Section End ----- */
+
+/* ----- Footer Section ----- */
+
+.footer {
+    color: #E5E7EB;
+    flex-shrink: 0;
+    height: 70px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----- Footer Section End ----- */
