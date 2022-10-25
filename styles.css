@@ -10,6 +10,12 @@ body {
 
 /* ----- Site Header Section ----- */
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -24,15 +30,10 @@ body {
     gap: 20px;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
 /* ----- End Site Header Section----- */
 
 /* ----- Site Content Section ----- */
+
 .content {
     display: flex;
     flex-direction: column;
@@ -47,6 +48,7 @@ body {
     padding-bottom: 80px;
     gap: 15px;
 }
+
 .hero-main-text-content {
     flex: 1;
 }
