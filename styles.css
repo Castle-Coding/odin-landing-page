@@ -10,16 +10,16 @@ body {
 
 /* ----- Site Header Section ----- */
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 #header-links {
