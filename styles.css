@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     margin-left: 300px;
     margin-right: 300px;
+    font-family: sans-serif;
 }
 
 .header {
@@ -91,12 +92,13 @@ body {
 
 .image-placeholder {
     background-color: grey;
+    color: #E5E7EB;
 }
 
 #hero-text {
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: bolder;
+    font-weight: 800;
     margin: 0;
     width: 400px;
 }
@@ -110,6 +112,9 @@ body {
 #hero-button {
     flex: 0 0 0;
     background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 500;
     width: 150px;
     padding: 10px;
     border: none;
